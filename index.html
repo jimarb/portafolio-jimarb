@@ -11,6 +11,9 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Ubuntu:300,400" rel="stylesheet">
 
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <!-- Jimarb CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -27,6 +30,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Inicio</a>
+            </li>
             <li class="nav-item active">
               <a class="nav-link" href="#about">Sobre mi</a>
             </li>
@@ -49,20 +55,135 @@
         <div class="col-12 col-md-6 text-center d-none d-sm-block">
           <h1 class="hero-title text-white align-self-center">La tecnología no es complicada, depende de quién te la <span> <u>explique</u> </span></h1>
           <p class="hero-author-name font-weight-bold text-white display-4 py-2 bg-warning rounded-pill">José Marabolí Barrientos</p>
-          <span class="py-2 px-2 bg-success text-white rounded-pill"> Analista programador </span>
+          <span class="py-2 px-2 bg-success text-white rounded-pill"> Analista Programador </span>
         </div>
       </div>
     </header>
 
-    <section>
+    <section id="about" class="d-none d-sm-block">
+      <div class="container-fluid my-3">
+        <div class="container text-center">
+          <div class="row align-self-center">
+            <div class="col-12 col-md-6">
+              <h1 class="py-2 px-2 bg-dark rounded-pill text-white">Hola ! Este soy yo...</h1>
+            </div>
+            <div class="col-12 col-md-6">
+              <p class="about-text py-2 px-2 bg-light rounded">Tengo 22 años y mi principal profesión es ser Analista Programador,
+              actualmente trabajo en una empresa de telecomunicaciones, dentro de mis principales hobbyes
+              tengo la multimedia, fotografía y recorrer la ciudad.</p>
+            </div>
+          </div>
 
+        </div>
+      </div>
     </section>
+
+    <section id="experience">
+      <div class="container my-5 text-center">
+        <h1>Mis Experiencias</h1>
+        <div class="row my-3">
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <i class="fas fa-atom fa-7x text-success"></i>
+              <div class="card-body">
+                <h5 class="card-title">27-SEP-2016 / 16-ENE-2017</h5>
+                <p class="card-text">Nectia Bizware</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#bizware-modal">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card text-center">
+              <i class="fas fa-code fa-7x text-primary"></i>
+              <div class="card-body">
+                <h5 class="card-title">01-FEB-2017 / 16-ABR-2018</h5>
+                <p class="card-text">ServIT Ltda</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#servit-modal">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card">
+              <i class="fas fa-sim-card fa-7x text-warning"></i>
+              <div class="card-body">
+                <h5 class="card-title">07-MAY-2018 / <span class="py-2 px-2 bg-danger rounded-pill text-white">ACTUALIDAD</span></h5>
+                <p class="card-text">M2MDataGlobal</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#mdg-modal">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Start Modal Section -->
+    <div class="modal fade" id="bizware-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Me desempeñaba como...</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+             Soporte del area de continuidad operacional y sintonia de base de datos.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="servit-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Me desempeñaba como...</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+             Programador en el área de desarrollo y soporte nivel 1 y 2.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="mdg-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Me desempeño como...</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+             Programador en el área de desarrollo, soporte, documentación y mantención de base de datos.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Modal Section -->
 
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- JQuery 3.3.1 sin Slim -->
+    <script src="http://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
