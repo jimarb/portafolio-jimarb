@@ -42,3 +42,22 @@ span{
 .about-text{
   font-size: 1.3em;
 }
+
+.experience-text{
+  font-family: 'Ubuntu';
+  font-weight: 300;
+}
+
+.works-text{
+  font-family: 'Ubuntu';
+  font-weight: 300;
+}
+
+.contact-text {
+  font-family: 'Ubuntu';
+  font-weight: 300;
+}
+
+.bg-purple{
+background-color:purple;
+}
